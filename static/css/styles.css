@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.fix {
+    clear: both;
+}
+
+html {
+    background-color: #eee;
+}
+
+body {
+    min-width: 1150px;
+    width: 1150px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+/* Навигация в загловке */
+
+nav {
+    padding: 20px;
+}
+
+.brand {
+    width: 211px;
+    height: 55px;
+    background: no-repeat url("../images/brand.png");
+    float: left;
+}
+
+.menu {
+    list-style: none;
+    line-height: 55px;
+    font-size: 0px;
+    position: absolute;
+    left: 50%;
+    margin-left: -147px;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 0px 20px;
+    color: #5a5c59;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #5a5c59;
+}
+
+.menu-item a:hover {
+    color: #8eacc1;
+}
+
+.menu-item a:visited {
+    color: #5a5c59;
+}
+
+/* Контакты в заголовке */
+
+.contacts {
+    float: right;
+    font-size: 14px;
+    font-family: Arial;
+    margin-top: 8px;
+}
+
+.phone {
+    margin-bottom: 7px;
+}
+
+.fa-phone-fix {
+    color: #8eacc1;
+    padding-right: 8px;
+}
+
+.fa-envelope-fix {
+    color: #8eacc1;
+    padding-right: 8px;
+}
+
+.langs {
+    float: right;
+    margin-left: 50px;
+    padding-top: 7px;
+}
+
+.en, .ru {
+    width: 29px;
+    height: 18px;
+}
+
+.ru {
+    background: no-repeat url("../images/langs.png") 0px -72px;
+    margin-bottom: 6px;
+}
+
+.en {
+    background: no-repeat url("../images/langs.png") 0px -36px;
+}
+
+.en:hover {
+    background: no-repeat url("../images/langs.png") 0px 0px;
+}
+
+/* Блок с основной фоткой и описанием направления работы */
+
+.about {
+    position: relative;
+    width: 1150px;
+    height: 381px;
+    background: no-repeat url("../images/devices.jpg");
+    /*padding-top: 343px;*/
+}
+
+.description {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 50px;
+    color: #fff;
+    background-color: #186b93;
+    font-family: Arial;
+    opacity: 0.9;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+i.uppercase {
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+/* Основное содержимое */
+
+main {
+    margin-top: 40px;
+    padding: 0px 20px;
+}
+
+/* Сферы деятельности */
+
+.area-container {
+    float: left;
+    width: 350px;
+    /*background-color: #8eacc1;*/
+    margin-right: 30px;
+}
+
+.simulation {
+    margin-right: 0px;
+}
+
+.control .area-title {
+    line-height: 32px;
+}
+
+.area-title {
+    /*color: #1f211f;*/
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+
+.area-icon {
+    width: 350px;
+    height: 170px;
+    /*background-color: #186b93;*/
+}
+
+.control .area-icon {
+    background: no-repeat url("../images/control.png") center center;
+}
+
+.soft .area-icon {
+    background: no-repeat url("../images/soft.png") center center;
+}
+
+.simulation .area-icon {
+    background: no-repeat url("../images/simulation.png") center center;
+}
