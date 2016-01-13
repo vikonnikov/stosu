@@ -19,7 +19,7 @@ body {
 }
 
 
-/* ��������� � �������� */
+/* Navigation */
 
 nav {
     padding: 20px;
@@ -64,7 +64,7 @@ nav {
     color: #5a5c59;
 }
 
-/* �������� � ��������� */
+/* Header contacts and language selector */
 
 .contacts {
     float: right;
@@ -116,7 +116,7 @@ nav {
     background: no-repeat url("../images/langs.png") 0px 0px;
 }
 
-/* ���� � �������� ������ � ��������� ����������� ������ */
+/* Company description */
 
 .about {
     position: relative;
@@ -143,14 +143,28 @@ i.uppercase {
     text-transform: uppercase;
 }
 
-/* �������� ���������� */
+/* Main content */
 
 main {
     margin-top: 40px;
     padding: 0px 20px;
 }
 
-/* ����� ������������ */
+.block {
+    margin-top: 40px;
+}
+
+.block-title {
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Areas of work */
 
 .area-container {
     float: left;
@@ -168,7 +182,7 @@ main {
 }
 
 .area-title {
-    /*color: #1f211f;*/
+    color: #1f211f;
     display: block;
     text-transform: uppercase;
     font-size: 14px;
@@ -214,50 +228,105 @@ main {
     line-height: 20px;
 }
 
-/* Реализованные проекты */
-
-.block {
-    margin-top: 40px;
+.area-list a {
+    text-decoration: none;
+    color: #1f211f;
 }
 
-.block-title {
-    display: block;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-family: Arial;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
+.area-list a:hover {
+    color: #646664;
 }
 
-.projects-slides {
+/* Slider with last projects */
+
+.project-slider__container {
     min-width: 800px;
     width: 800px;
     height: 300px;
     margin: 0 auto;
     background-color: #eee;
     margin-bottom: 25px;
+    font-size: 0px;
 }
 
-/* Заказчики */
+.project-slide {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #186b93;
+    opacity: 0.9;
+    width: 250px;
+    height: 270px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.project-slide__title {
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: left;
+    /*padding: 0px 20px;*/
+    /*margin-top: 20px;*/
+}
+
+.project-slide__description {
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial;
+    margin-top: 8px;
+    line-height: 15px;
+}
+
+.project-slide__description p {
+    padding-top: 8px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background-color: #125a95;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background-color: #8eacc1;
+}
+
+.bx-prev {
+    left: -50px !important;
+}
+
+.bx-next {
+    right: -50px !important;
+}
+
+/* Company customers */
 
 .customers {
-    margin-top: 40px;
+    margin-top: 70px;
     margin-bottom: 75px;
+}
+
+.customers a {
+    border: none;
 }
 
 .customers-list {
     list-style-type: none;
     font-size: 0px;
+    margin-left: 40px;
 }
 
 .customers-list li {
     display: inline-block;
-    background-color: #eee;
-    width: 150px;
-    height: 50px;
+    /*background-color: #eee;*/
+    /*width: 150px;*/
+    /*height: 50px;*/
     margin-left: 25px;
 }
+
+/* Footer */
 
 footer {
     background-color: #186b93;

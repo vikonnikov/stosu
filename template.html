@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <link rel="stylesheet" href="./static/css/font-awesome.css">
+    <link rel="stylesheet" href="./static/libs/jquery.bxslider/jquery.bxslider.css">
     <link rel="stylesheet" href="./static/css/styles.css">
-    <title></title>
+
+    <script src="./static/libs/jquery.min.js"></script>
+    <script src="./static/libs/jquery.bxslider/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(function() {
+            $('#slider').bxSlider();
+        })
+    </script>
+
+    <title>НИЛ СТОСУ</title>
 </head>
 <body>
     <header>
@@ -37,27 +49,27 @@
                 <div class="area-icon"></div>
                 <h2 class="area-title">Разработка систем управления</h2>
                 <ul class="area-list">
-                    <li>Проектирование и реализация автоматизированных систем управлениния</li>
-                    <li>Автоматизация технологических процессов с использованием SCADA:
-                        Trace Mode, Master Scada, Open Scada</li>
+                    <li><a href="">Проектирование и реализация автоматизированных систем управлениния</a></li>
+                    <li><a href="">Автоматизация технологических процессов с использованием SCADA:
+                        Trace Mode, Master Scada, Open Scada</a></li>
                 </ul>
             </div>
             <div class="area-container soft">
                 <div class="area-icon"></div>
                 <h2 class="area-title">Разработка программного обеспечения</h2>
                 <ul class="area-list">
-                    <li>Разработка автоматизированных рабочих мест и пользовательских интерфейсов</li>
-                    <li>Программирование ПЛК, ПЛИС и микроконтроллеров</li>
-                    <li>Разработка драйверов</li>
-                    <li>Автоматизация производственых и бизнес процессов</li>
+                    <li><a href="">Разработка автоматизированных рабочих мест и пользовательских интерфейсов</a></li>
+                    <li><a href="">Программирование ПЛК, ПЛИС и микроконтроллеров</a></li>
+                    <li><a href="">Разработка драйверов</a></li>
+                    <li><a href="">Автоматизация производственых и бизнес процессов</a></li>
                 </ul>
             </div>
             <div class="area-container simulation">
                 <div class="area-icon"></div>
                 <h2 class="area-title">Моделирование технологических процессов</h2>
                 <ul class="area-list">
-                    <li>Реализация математических и имитационных моделей технологических объектов и процессов</li>
-                    <li>Моделирование и отработка алгоритмов обработки сигналов и управления</li>
+                    <li><a href="">Реализация математических и имитационных моделей технологических объектов и процессов</a></li>
+                    <li><a href="">Моделирование и отработка алгоритмов обработки сигналов и управления</a></li>
                 </ul>
             </div>
             <div class="fix"></div>
@@ -65,20 +77,40 @@
 
         <div class="block projects">
             <h2 class="block-title">Реализованные проекты</h2>
-            <div class="projects-slides"></div>
+            <div class="project-slider__container">
+                <ul class="project-slider" id="slider">
+                    <li>
+                        <img src="./static/images/slides/turbina.png"/>
+                        <div class="project-slide">
+                            <h3 class="project-slide__title">Система управления малогабаритной газотурбинной установкой</h3>
+                            <div class="project-slide__description">
+                                <p>По заказу ОАО СКБ Турбина разработана система управления инновационной малогабаритной газотурбинной установкой.
+                                <p>Разработана математическая модель газотурбинной устнаовки,.
+                                <p>Разработан испытатаельный стенд.
+                                <p>Система управления реализована на базе контроллера для газо-генераторных установок Woodward.
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="./static/images/slides/turbina.png"/></li>
+                    <li><img src="./static/images/slides/turbina.png"/></li>
+                    <li><img src="./static/images/slides/turbina.png"/></li>
+                    <li><img src="./static/images/slides/turbina.png"/></li>
+                </ul>
+            </div>
         </div>
 
         <div class="block customers">
             <h2 class="block-title">Наши заказчики</h2>
             <ul class="customers-list">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="http://www.kamaz.ru/" title="ПАО Камаз"><img src="./static/images/customers/kamaz.png" alt="ПАО Камаз"></a></li>
+                <li><a href="http://www.skb-turbina.com/" title="АО СКБ Турбина"><img src="./static/images/customers/turbina.png" alt="АО СКБ Турбина"></a></li>
+                <li><a href="http://makeyev.ru/" title="АО Государственный ракетный центр имени академика В.П. Макеева"><img src="./static/images/customers/grc.png" alt="АО Государственный ракетный центр имени академика В.П. Макеева"></a></li>
+                <li><a href="http://www.rpk-su.ru/" title="Российская приборостроительная корпорация СИСТЕМЫ УПРАВЛЕНИЯ"><img src="./static/images/customers/rpk.png" alt="Российская приборостроительная корпорация СИСТЕМЫ УПРАВЛЕНИЯ"></a></li>
+                <li><a href="http://www.croc.ru/" title="ЗАО КРОК инкорпорейтед"><img src="./static/images/customers/krok.png" alt="ЗАО КРОК инкорпорейтед"></a></li>
+                <li><a href="http://www.neywa.ru/" title="ФГУП Производственное объединение ОКТЯБРЬ"><img src="./static/images/customers/oktyabr.png" alt="ФГУП Производственное объединение ОКТЯБРЬ"></a></li>
             </ul>
         </div>
+
     </main>
     <footer>
         <ul class="footer-list">
