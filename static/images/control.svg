@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="410px" height="177px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 410 177"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str3 {stroke:#293B78;stroke-width:0.999216}
+    .str1 {stroke:#8EACC1;stroke-width:1.99961}
+    .str2 {stroke:#8EACC1;stroke-width:2.08347}
+    .str4 {stroke:#186B93;stroke-width:3.00001}
+    .str0 {stroke:#56698F;stroke-width:0.900003;stroke-dasharray:1.800007 2.700010}
+    .fil0 {fill:none}
+    .fil8 {fill:#8B97CB}
+    .fil9 {fill:#186B93}
+    .fil7 {fill:#50B6C6}
+    .fil10 {fill:#5979A5}
+    .fil6 {fill:#8EACC1}
+    .fil2 {fill:#186B93;fill-rule:nonzero}
+    .fil4 {fill:#50B6C6;fill-rule:nonzero}
+    .fil1 {fill:#5979A5;fill-rule:nonzero}
+    .fil3 {fill:#8EACC1;fill-rule:nonzero}
+    .fil5 {fill:white;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_169273424">
+   <g>
+    <line class="fil0 str0" x1="339" y1="38" x2="404" y2= "38" />
+    <line class="fil0 str0" x1="339" y1="54" x2="404" y2= "54" />
+    <line class="fil0 str0" x1="357" y1="23" x2="357" y2= "72" />
+    <line class="fil0 str0" x1="382" y1="23" x2="382" y2= "73" />
+   </g>
+   <polygon class="fil1" points="95,124 79,124 81,3 93,3 "/>
+   <polygon class="fil1" points="137,125 121,125 123,4 135,4 "/>
+   <path class="fil1" d="M94 4c0,2 -1,3 -2,3l-10 0c-2,0 -3,-1 -3,-3 0,-1 1,-3 3,-3l10 0c1,0 2,2 2,3z"/>
+   <path class="fil1" d="M137 4c0,2 -2,3 -3,3l-10 0c-1,0 -3,-1 -3,-3 0,-1 2,-3 3,-3l10 0c1,0 3,2 3,3z"/>
+   <polygon class="fil1" points="56,126 40,126 42,4 54,4 "/>
+   <path class="fil1" d="M55 4c0,2 -1,3 -2,3l-10 0c-2,0 -3,-1 -3,-3 0,-1 1,-3 3,-3l10 0c1,0 2,2 2,3z"/>
+   <polygon class="fil2" points="61,129 33,129 37,89 58,89 "/>
+   <polygon class="fil2" points="101,129 73,129 77,89 98,89 "/>
+   <polygon class="fil2" points="143,129 115,129 119,89 140,89 "/>
+   <polygon class="fil3" points="161,146 13,146 13,116 161,116 "/>
+   <polygon class="fil2" points="261,176 0,176 0,141 261,141 "/>
+   <polygon class="fil4" points="46,165 11,165 11,154 46,154 "/>
+   <polygon class="fil4" points="87,165 52,165 52,154 87,154 "/>
+   <polygon class="fil5" points="128,165 93,165 93,154 128,154 "/>
+   <polygon class="fil5" points="168,165 134,165 134,154 168,154 "/>
+   <polygon class="fil4" points="209,165 175,165 175,154 209,154 "/>
+   <polygon class="fil4" points="250,165 216,165 216,154 250,154 "/>
+   <path class="fil1" d="M401 66c0,2 -1,4 -2,4l-54 0c-1,0 -2,-2 -2,-4l0 -36c0,-2 1,-4 2,-4l54 0c1,0 2,2 2,4l0 36zm9 -39c0,-10 -5,-8 -11,-8l-53 0c-6,0 -11,-2 -11,8l0 140c0,10 5,8 11,8l53 0c6,0 11,2 11,-8l0 -140z"/>
+   <rect class="fil6" x="344" y="85" width="13.9997" height="15.0001" rx="2" ry="2"/>
+   <rect class="fil6" x="364" y="86" width="36.0001" height="13.0004" rx="2" ry="2"/>
+   <circle class="fil7" cx="393" cy="108" r="3"/>
+   <circle class="fil7" cx="383" cy="108" r="3"/>
+   <circle class="fil7" cx="373" cy="108" r="3"/>
+   <path class="fil0 str1" d="M357 92c-4,2 11,1 8,1l-1 0"/>
+   <rect class="fil6" x="344" y="109" width="13.9997" height="15.0001" rx="2" ry="2"/>
+   <rect class="fil6" x="344" y="143" width="13.9997" height="15.0001" rx="2" ry="2"/>
+   <rect class="fil6" x="365" y="143" width="13.9997" height="15.0001" rx="2" ry="2"/>
+   <rect class="fil6" x="387" y="143" width="13.9997" height="15.0001" rx="2" ry="2"/>
+   <line class="fil0 str2" x1="351" y1="93" x2="351" y2= "116" />
+   <polyline class="fil0 str2" points="394,151 394,132 350,132 350,116 "/>
+   <line class="fil0 str2" x1="372" y1="151" x2="372" y2= "132" />
+   <path class="fil8 str3" d="M402 56l0 13c0,0 -1,1 -1,1l-56 0c-1,0 -1,-1 -1,-1l0 -10c0,0 1,-12 5,-12 3,0 6,18 11,18 4,0 7,-12 13,-12 6,0 8,4 16,4 7,1 6,-1 13,-1z"/>
+   <path class="fil0 str4" d="M261 158c5,0 0,0 5,0 21,16 39,-22 64,0l5 0"/>
+   <path class="fil9" d="M261 152l3 0c1,0 2,1 2,2l0 8c0,1 -1,2 -2,2l-3 0 0 -12z"/>
+   <path class="fil10" d="M333 152l3 0 0 12 -3 0c-1,0 -2,-1 -2,-2l0 -8c0,-1 1,-2 2,-2z"/>
+  </g>
+ </g>
+</svg>

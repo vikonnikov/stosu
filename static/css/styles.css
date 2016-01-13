@@ -196,19 +196,27 @@ main {
 .area-icon {
     width: 350px;
     height: 170px;
-    /*background-color: #186b93;*/
+    text-align: center;
+    line-height: 170px;
 }
 
-.control .area-icon {
-    background: no-repeat url("../images/control.png") center center;
+.area-icon img {
+    vertical-align: middle;
 }
 
-.soft .area-icon {
-    background: no-repeat url("../images/soft.png") center center;
+.control .area-icon img {
+    width: 303px;
+    height: 131px;
 }
 
-.simulation .area-icon {
-    background: no-repeat url("../images/simulation.png") center center;
+.soft .area-icon img {
+    width: 202px;
+    height: 103px;
+}
+
+.simulation .area-icon img {
+    width: 217px;
+    height: 166px;
 }
 
 .area-list {
