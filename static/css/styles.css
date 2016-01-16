@@ -97,25 +97,31 @@ nav {
 .langs {
     float: right;
     margin-left: 50px;
-    padding-top: 7px;
+    padding-top: 9px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    color: #186b93;
+    text-decoration: none;
+}
+
+.langs a {
+    color: #8eacc1;
+    text-decoration: none;
+}
+
+.langs a:hover {
+    color: #186b93;
 }
 
 .en, .ru {
-    width: 29px;
-    height: 18px;
 }
 
 .ru {
-    background: no-repeat url("../images/langs.png") 0px -72px;
-    margin-bottom: 6px;
+    /*margin-bottom: 6px;*/
 }
 
 .en {
-    background: no-repeat url("../images/langs.png") 0px -36px;
-}
-
-.en:hover {
-    background: no-repeat url("../images/langs.png") 0px 0px;
 }
 
 /* Company description */
