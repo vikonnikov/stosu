@@ -1,0 +1,9 @@
+@font-face {
+    font-family: HelveticaRoman;
+    src: url(../fonts/Helvetica-Neue-Cyr/HelveticaNeueCyr-Roman.otf);
+}
+
+@font-face {
+    font-family: HelveticaLight;
+    src: url(../fonts/Helvetica-Neue-Cyr/HelveticaNeueCyr-Light.otf);
+}
