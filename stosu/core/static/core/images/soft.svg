@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="384px" height="193px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 384 193"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#466DB3;stroke-width:2.08346}
+    .fil0 {fill:#FEFEFE}
+    .fil4 {fill:#F08486}
+    .fil2 {fill:#8B97CB}
+    .fil3 {fill:#62A97F}
+    .fil1 {fill:#466DB3}
+    .fil8 {fill:#FEFEFE;fill-rule:nonzero}
+    .fil5 {fill:#F08486;fill-rule:nonzero}
+    .fil7 {fill:#8B97CB;fill-rule:nonzero}
+    .fil6 {fill:#62A97F;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_329981872">
+   <g>
+    <rect class="fil0 str0" x="59" width="325" height="193" rx="4" ry="4"/>
+    <rect class="fil1" x="58" width="325.087" height="25.9659" rx="4" ry="1"/>
+    <g>
+     <circle class="fil0" cx="369" cy="13" r="6"/>
+     <circle class="fil0" cx="349" cy="13" r="6"/>
+     <circle class="fil0" cx="327" cy="13" r="6"/>
+    </g>
+    <rect class="fil2" x="74" y="41" width="193.838" height="11.2099"/>
+    <rect class="fil3" x="280" y="41" width="84.0741" height="11.2099"/>
+    <rect class="fil3" x="74" y="71" width="42.037" height="11.2099"/>
+    <rect class="fil3" x="217" y="71" width="85.2745" height="11.2099"/>
+    <rect class="fil4" x="317" y="71" width="47.1102" height="11.2099"/>
+    <rect class="fil3" x="74" y="101" width="98.5543" height="11.2099"/>
+    <rect class="fil4" x="184" y="101" width="81.7372" height="11.2099"/>
+    <rect class="fil3" x="280" y="101" width="84.0741" height="11.2099"/>
+    <rect class="fil3" x="74" y="131" width="42.037" height="11.2099"/>
+    <rect class="fil3" x="217" y="131" width="30.6264" height="11.2099"/>
+    <rect class="fil3" x="259" y="131" width="105.026" height="11.2099"/>
+    <rect class="fil4" x="74" y="161" width="69.1283" height="11.2099"/>
+    <rect class="fil3" x="156" y="161" width="78.9348" height="11.2099"/>
+    <rect class="fil3" x="317" y="161" width="47.1102" height="11.2099"/>
+    <rect class="fil3" x="130" y="71" width="76.1345" height="11.2099"/>
+    <rect class="fil3" x="131" y="131" width="30.6264" height="11.2099"/>
+    <rect class="fil3" x="174" y="131" width="30.6264" height="11.2099"/>
+    <rect class="fil2" x="251" y="162" width="52.7791" height="11.2099"/>
+   </g>
+   <g>
+    <path class="fil5" d="M30 92c0,7 -4,12 -13,13 -7,0 -12,-6 -12,-13 0,-7 5,-12 13,-12 7,0 12,5 12,12zm11 21c0,-1 0,-2 -1,-3l-8 -8c2,-3 3,-6 3,-10 0,-10 -8,-17 -17,-17 -10,0 -18,7 -18,17 0,10 8,17 18,17 3,0 7,-1 9,-3l9 9c0,0 1,1 2,1 2,0 3,-2 3,-3z"/>
+    <path class="fil5" d="M27 92c0,0 -1,-1 -1,-1l-3 0c0,-1 0,-2 0,-3l2 -2c0,0 0,-1 0,-1 0,0 -1,0 -1,0l-2 2 -9 0 -2 -2c-1,0 -1,0 -1,0 -1,0 -1,1 0,1l2 2c0,1 0,2 0,3l-3 0c0,0 -1,1 -1,1 0,1 1,1 1,1l3 0c0,1 0,2 0,3l-2 3c0,0 0,0 0,1 0,0 0,0 0,0 1,0 1,0 1,0l2 -3c0,0 2,2 4,2l0 -11 1 0 0 11c2,0 4,-2 4,-2l2 3c0,0 0,0 0,0 1,0 1,0 1,0 0,-1 0,-1 0,-1l-3 -3c1,-1 1,-2 1,-3l3 0c0,0 1,0 1,-1zm-6 -6c0,-2 -2,-4 -4,-4 -2,0 -3,2 -3,4l7 0z"/>
+   </g>
+   <path class="fil6" d="M32 161c0,-1 0,-2 0,-3l-3 -2c-1,-1 -2,-1 -3,0l-7 7 -4 -4c-1,-1 -2,-1 -2,0l-3 3c-1,0 -1,1 0,2l8 8c0,1 2,1 2,0l12 -11zm3 2c0,8 -6,15 -14,15 -8,0 -15,-7 -15,-15 0,-8 7,-15 15,-15 8,0 14,7 14,15zm6 0c0,-12 -9,-21 -20,-21 -12,0 -21,9 -21,21 0,11 9,21 21,21 11,0 20,-10 20,-21z"/>
+   <g>
+    <path class="fil7" d="M41 15c0,-4 -3,-7 -7,-7l-26 0c-4,0 -8,3 -8,7l0 26c0,4 4,8 8,8l26 0c4,0 7,-4 7,-8l0 -26z"/>
+    <path class="fil8" d="M15 35c1,0 1,-1 0,-1l-6 -6 6 -6c1,0 1,0 0,-1l0 0c-1,-1 -1,-1 -1,0l-7 7c0,0 0,0 0,1l7 7c0,0 0,0 1,0l0 -1zm10 -16c0,-1 -1,-1 -1,-1l-1 0c0,0 0,0 0,0l-6 20c0,0 0,0 0,0l1 1c0,0 1,0 1,-1l6 -19zm10 10c0,-1 0,-1 0,-1l-7 -7c-1,-1 -1,-1 -1,0l-1 0c0,1 0,1 0,1l6 6 -6 6c0,0 0,1 0,1l1 1c0,0 0,0 1,0l7 -7z"/>
+   </g>
+  </g>
+ </g>
+</svg>
