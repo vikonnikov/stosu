@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-24 13:08+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\stosu\templates\core\base.html:21 .\stosu\templates\core\base.html:26
+msgid "НИЛ СТОСУ"
+msgstr "NIL STOSU"
+
+#: .\stosu\templates\core\base.html:28 .\stosu\templates\core\base.html:53
+msgid "Услуги"
+msgstr "Services"
+
+#: .\stosu\templates\core\base.html:29 .\stosu\templates\core\base.html:54
+msgid "Проекты"
+msgstr "Projects"
+
+#: .\stosu\templates\core\base.html:30 .\stosu\templates\core\base.html:55
+msgid "Контакты"
+msgstr "Contacts"
+
+#: .\stosu\templates\core\base.html:48 .\stosu\templates\core\index.html:16
+msgid "Разработка систем управления"
+msgstr "Control system development"
+
+#: .\stosu\templates\core\base.html:49 .\stosu\templates\core\index.html:34
+msgid "Моделирование технологических процессов"
+msgstr "Simulation of control system and processes"
+
+#: .\stosu\templates\core\base.html:50 .\stosu\templates\core\index.html:24
+msgid "Разработка программного обеспечения"
+msgstr "Software development"
+
+#: .\stosu\templates\core\base.html:61
+msgid "Челябинск, пр.Ленина 81, 718"
+msgstr "Russia, Chelyabinsk, pr.Lenina 81, 718"
+
+#: .\stosu\templates\core\index.html:7
+msgid "Научно-исследовательская лаборатория"
+msgstr "Scientific research laboratory"
+
+#: .\stosu\templates\core\index.html:8
+msgid "Современные технологии обработки сигналов и управления"
+msgstr "Modern technologies of data acquisition and control"
+
+#: .\stosu\templates\core\index.html:9
+msgid ""
+"специализиурется в области разработки автоматизированных систем управления, "
+"программного обеспечения и моделирования технологических процессов"
+msgstr ""
+"specialized in the development of control systems, software and simulation "
+"of technological processes"
+
+#: .\stosu\templates\core\index.html:18
+msgid "Проектирование и реализация автоматизированных систем управлениния"
+msgstr "Design and development of control systems"
+
+#: .\stosu\templates\core\index.html:19
+msgid ""
+"Автоматизация технологических процессов с использованием SCADA: Trace Mode, "
+"Master Scada, Open Scada"
+msgstr ""
+"Automation of processes with SCADA systems Trace Mode, Master Scada, Open "
+"Scada"
+
+#: .\stosu\templates\core\index.html:26
+msgid ""
+"Разработка автоматизированных рабочих мест и пользовательских интерфейсов"
+msgstr "Development of automated workplaces, ERP and CRM systems"
+
+#: .\stosu\templates\core\index.html:27
+msgid "Программирование ПЛК, ПЛИС и микроконтроллеров"
+msgstr "Programming of PLC, PLD and microcontrollers"
+
+#: .\stosu\templates\core\index.html:28
+msgid "Разработка драйверов"
+msgstr "Development of drivers and embedded software"
+
+#: .\stosu\templates\core\index.html:29
+msgid "Автоматизация производственых и бизнес процессов"
+msgstr "Automation of production and business processes"
+
+#: .\stosu\templates\core\index.html:36
+msgid ""
+"Реализация математических и имитационных моделей технологических объектов и "
+"процессов"
+msgstr "Mathematical models of industrial objects and processes"
+
+#: .\stosu\templates\core\index.html:37
+msgid "Моделирование и отработка алгоритмов обработки сигналов и управления"
+msgstr ""
+"Design, development and simulation of control and signal processing "
+"algorithms"
+
+#: .\stosu\templates\core\index.html:44
+msgid "Реализованные проекты"
+msgstr "Completed projects"
+
+#: .\stosu\templates\core\index.html:50
+msgid "Система управления малогабаритной газотурбинной установкой"
+msgstr "Control system for small-sized turbine engine"
+
+#: .\stosu\templates\core\index.html:62
+msgid "ПО визуальной обработки телеметрической информации"
+msgstr "Telemetry processing software for primary visual handling"
+
+#: .\stosu\templates\core\index.html:74
+msgid "Автоматизированная система управлением станком сварки труб трением"
+msgstr "Control system for a friction welding machine"
+
+#: .\stosu\templates\core\index.html:88
+msgid ""
+"Автоматизированная система диспетчеризации и управления центральным тепловым "
+"пунктом"
+msgstr "Dispatch and control system for central heating station"
+
+#: .\stosu\templates\core\index.html:100
+msgid ""
+"Разработка графического интерфейса системы управления очистными сооружениями"
+msgstr "Graphical interface for control systems of treatment plant"
+
+#: .\stosu\templates\core\index.html:110
+msgid "Алгоритмическое обеспечение автономной системы управления"
+msgstr ""
+
+#: .\stosu\templates\core\index.html:122
+msgid "Наши заказчики"
+msgstr "Our customers"

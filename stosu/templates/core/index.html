@@ -1,52 +1,53 @@
 {% extends "core/base.html" %}
 {% load static %}
+{% load i18n %}
 
 {% block content %}
 <div class="about">
-    <h2 class="description">Научно-исследовательская лаборатория <i class="uppercase">Современные технологии обработки
-        сигналов и управления</i> специализиурется в области разработки автоматизированных систем управления,
-        программного обеспечения и моделирования технологических процессов</h2>
+    <h2 class="description">{% trans "Научно-исследовательская лаборатория" %}
+        <i class="uppercase">{% blocktrans trimmed %}Современные технологии обработки сигналов и управления{% endblocktrans %}
+        </i> {% blocktrans trimmed %}специализиурется в области разработки автоматизированных систем управления,
+        программного обеспечения и моделирования технологических процессов{% endblocktrans %}</h2>
 </div>
 
 <div class="block areas">
     <div class="area-container control">
         <div class="area-icon"><img src="{% static "core/images/control.svg" %}"></div>
-        <h2 class="area-title">Разработка систем управления</h2>
+        <h2 class="area-title">{% trans "Разработка систем управления" %}</h2>
         <ul class="area-list">
-            <li><a href="">Проектирование и реализация автоматизированных систем управлениния</a></li>
-            <li><a href="">Автоматизация технологических процессов с использованием SCADA:
-                Trace Mode, Master Scada, Open Scada</a></li>
+            <li><a href="">{% trans "Проектирование и реализация автоматизированных систем управлениния" %}</a></li>
+            <li><a href="">{% trans "Автоматизация технологических процессов с использованием SCADA: Trace Mode, Master Scada, Open Scada" %}</a></li>
         </ul>
     </div>
     <div class="area-container soft">
         <div class="area-icon"><img src="{% static "core/images/soft.svg" %}"></div>
-        <h2 class="area-title">Разработка программного обеспечения</h2>
+        <h2 class="area-title">{% trans "Разработка программного обеспечения" %}</h2>
         <ul class="area-list">
-            <li><a href="">Разработка автоматизированных рабочих мест и пользовательских интерфейсов</a></li>
-            <li><a href="">Программирование ПЛК, ПЛИС и микроконтроллеров</a></li>
-            <li><a href="">Разработка драйверов</a></li>
-            <li><a href="">Автоматизация производственых и бизнес процессов</a></li>
+            <li><a href="">{% trans "Разработка автоматизированных рабочих мест и пользовательских интерфейсов" %}</a></li>
+            <li><a href="">{% trans "Программирование ПЛК, ПЛИС и микроконтроллеров" %}</a></li>
+            <li><a href="">{% trans "Разработка драйверов" %}</a></li>
+            <li><a href="">{% trans "Автоматизация производственых и бизнес процессов" %}</a></li>
         </ul>
     </div>
     <div class="area-container simulation">
         <div class="area-icon"><img src="{% static "core/images/simulation.svg" %}"></div>
-        <h2 class="area-title">Моделирование технологических процессов</h2>
+        <h2 class="area-title">{% trans "Моделирование технологических процессов" %}</h2>
         <ul class="area-list">
-            <li><a href="">Реализация математических и имитационных моделей технологических объектов и процессов</a></li>
-            <li><a href="">Моделирование и отработка алгоритмов обработки сигналов и управления</a></li>
+            <li><a href="">{% trans "Реализация математических и имитационных моделей технологических объектов и процессов" %}</a></li>
+            <li><a href="">{% trans "Моделирование и отработка алгоритмов обработки сигналов и управления" %}</a></li>
         </ul>
     </div>
     <div class="fix"></div>
 </div>
 
 <div class="block projects">
-    <h2 class="block-title">Реализованные проекты</h2>
+    <h2 class="block-title">{% trans "Реализованные проекты" %}</h2>
     <div class="project-slider__container">
         <ul class="project-slider" id="slider">
             <li>
                 <img src="{% static "core/images/slides/turbina.png" %}"/>
                 <div class="project-slide">
-                    <h3 class="project-slide__title">Система управления малогабаритной газотурбинной установкой</h3>
+                    <h3 class="project-slide__title">{% trans "Система управления малогабаритной газотурбинной установкой" %}</h3>
                     <div class="project-slide__description">
                         <p>По заказу <b>ОАО СКБ Турбина</b> разработана система управления инновационной малогабаритной газотурбинной установкой.
                         <p>Разработана математическая модель газотурбинной устнаовки,.
@@ -58,7 +59,7 @@
             <li>
                 <img src="{% static "core/images/slides/grc.png" %}"/>
                 <div class="project-slide">
-                    <h3 class="project-slide__title">ПО визуальной обработки телеметрической информации</h3>
+                    <h3 class="project-slide__title">{% trans "ПО визуальной обработки телеметрической информации" %}</h3>
                     <div class="project-slide__description">
                         <p>Программа первичной обработки и отображения телеметрической информации
                         предназначена для визуализации данных, приходящих с аппаратных комплексов.
@@ -70,7 +71,7 @@
             <li>
                 <img src="{% static "core/images/slides/tube.png" %}"/>
                 <div class="project-slide">
-                    <h3 class="project-slide__title">Автоматизированная система управлением станком сварки труб трением</h3>
+                    <h3 class="project-slide__title">{% trans "Автоматизированная система управлением станком сварки труб трением" %}</h3>
                     <div class="project-slide__description">
                         <p>Автоматизированная система обеспечивает управление полуавтоматическим
                         станком сварки труб трением типа ПСТ-50Т.
@@ -84,7 +85,7 @@
             <li>
                 <img src="{% static "core/images/slides/krok.png" %}"/>
                 <div class="project-slide">
-                    <h3 class="project-slide__title">Автоматизированная система диспетчеризации и управления центральным тепловым пунктом</h3>
+                    <h3 class="project-slide__title">{% trans "Автоматизированная система диспетчеризации и управления центральным тепловым пунктом" %}</h3>
                     <div class="project-slide__description">
                         <p>Разработана система управления тепловыми и гидравлическими процессами ЦТП №22-23
                         <b>Челябинских Тепловых Сетей</b>.
@@ -96,11 +97,21 @@
             <li>
                 <img src="{% static "core/images/slides/rpk1.png" %}"/>
                 <div class="project-slide">
-                    <h3 class="project-slide__title">Разработка графического интерфейса системы управления очистными сооружениями</h3>
+                    <h3 class="project-slide__title">{% trans "Разработка графического интерфейса системы управления очистными сооружениями" %}</h3>
                     <div class="project-slide__description">
                         <p>...
                     </div>
                     <div class="project-slide__details"><a href="/projects/turbina/">Подробнее...</a></div>
+                </div>
+            </li>
+            <li>
+                <img src="{% static "core/images/slides/kamaz.png" %}"/>
+                <div class="project-slide">
+                    <h3 class="project-slide__title">{% trans "Алгоритмическое обеспечение автономной системы управления" %}</h3>
+                    <div class="project-slide__description">
+                        <p>...
+                    </div>
+                    <div class="project-slide__details"><a href="/projects/kamaz/">Подробнее...</a></div>
                 </div>
             </li>
         </ul>
@@ -108,7 +119,7 @@
 </div>
 
 <div class="block customers">
-    <h2 class="block-title">Наши заказчики</h2>
+    <h2 class="block-title">{% trans "Наши заказчики" %}</h2>
     <ul class="customers-list">
         <li><a href="http://www.kamaz.ru/" title="ПАО Камаз"><img src="{% static "core/images/customers/kamaz.png" %}" alt="ПАО Камаз"></a></li>
         <li><a href="http://www.skb-turbina.com/" title="АО СКБ Турбина"><img src="{% static "core/images/customers/turbina.png" %}" alt="АО СКБ Турбина"></a></li>
